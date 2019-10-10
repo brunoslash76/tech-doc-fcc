@@ -1,0 +1,252 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="nav-menu" id="nav-menu">
+        <div class="menu-icon"></div>
+        <div class="menu-icon"></div>
+        <div class="menu-icon"></div>
+    </div>
+    <aside class="nav-bar">
+        <nav  id="navbar">
+            <header>
+                <h2>Tópicos relacionados</h2>
+            </header>
+            <ul>
+                <li class="nav-list">
+                    <a href="#o_que_e_javascript">O que é JavaScript</a>
+                </li>
+                <li class="nav-list">
+                    <a href="#javascript_e_java">JavaScript e Java</a>
+                </li>
+                <li class="nav-list">
+                    <a href="#JavaScript_e_a_especificação_ECMAScript">JavaScript e a especificação ECMAScript</a>
+                </li>
+                <li class="nav-list">
+                    <a href="#Começando_com_JavaScript">Começando com JavaScript</a>
+                </li>
+                <li class="nav-list">
+                    <a href="#Sintaxe_basica">Sintaxe Básica</a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="main-content" id="main-doc">
+        <section class="main-section" id="o_que_e_javascript">
+            <header>
+                <h2>O que é JavaScript?</h2>
+            </header>
+            <p>JavaScript é uma linguagem de script orientada a objetos, multiplataforma. É uma linguagem pequena e
+                leve. Dentro de um ambiente de host (por exemplo, um navegador web) o JavaScript pode ser ligado aos
+                objetos deste ambiente para prover um controle programático sobre eles.</p>
+            <p>JavaScript tem uma biblioteca padrão de objetos, como: Array, Date, e Math, e um conjunto de elementos
+                que formam o núcleo da linguagem, tais como: operadores, estruturas de controle e declarações. O núcleo
+                do JavaScript pode ser estendido para uma variedade de propósitos, complementando assim a linguagem:</p>
+            <ul>
+                <li>
+                    <p>O lado cliente do JavaScript estende-se do núcleo linguagem, fornecendo objetos para controlar um
+                        navegador web e seu Document Object Model (DOM). Por exemplo, as extensões do lado do cliente
+                        permitem que uma aplicação coloque elementos em um formulário HTML e responda a eventos do
+                        usuário,
+                        como cliques do mouse, entrada de formulário e de navegação da página.</p>
+                </li>
+                <li>
+                    <p>O lado do servidor do JavaScript estende-se do núcleo da linguagem, fornecendo objetos relevantes
+                        à
+                        execução do JavaScript em um servidor. Por exemplo, as extensões do lado do servidor permitem
+                        que
+                        uma aplicação comunique-se com um banco de dados, garantindo a continuidade de informações de
+                        uma
+                        chamada para a outra da aplicação, ou executar manipulações de arquivos em um servidor.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="main-section" id="javascript_e_java">
+            <header>
+                <h2>JavaScript e Java</h2>
+            </header>
+            <p>JavaScript e Java são similares em algumas coisas, mas são diferentes em outras. O JavaScript
+                assemelha-se ao Java, porém não possui tipagem estática e checagem rigída de tipos como o Java.
+                JavaScript segue a sintaxe básica do Java, convenções de nomenclatura e construções de controle de
+                fluxo, razões pelas quais esta linguagem foi renomeada de LiveScript para JavaScript.</p>
+            <p>Em contraste com o sistema em tempo de compilação das classes construídas por declarações no Java,
+                JavaScript suporta um sistema em tempo de execução com base em um pequeno número de tipos de dados
+                representando valores numéricos, booleanos, e strings. JavaScript tem um modelo de objeto baseado em
+                protótipo em vez do modelo, mais comum, de objeto baseado em classes. O modelo baseado em protótipo
+                fornece herança dinâmica; isto é, o que é herdado pode variar para objetos individuais. JavaScript
+                também suporta funções sem quaisquer requisitos especiais declarativos. As funções podem ser
+                propriedades de objetos, executando como métodos.</p>
+            <p>JavaScript é uma linguagem mais livre em comparação a Java. Você não tem de declarar todas as variáveis,
+                classes e métodos. Você não tem que se preocupar com o fato dos métodos serem públicos, privados ou
+                protegidos, e você não tem que implementar interfaces. Variáveis, parâmetros e tipo de retorno da função
+                não são explicitamente tipados.</p>
+            <p>Java é uma linguagem de programação baseada em classes, projetada para execução rápida e segurança de
+                tipos. Segurança de tipo significa que, por exemplo, você não pode converter um número inteiro em Java
+                para uma referência de objeto ou acessar a memória privada corrompendo bytecodes Java. O modelo baseado
+                em classes do Java significa que os programas são exclusivamente constituídos por classes e seus
+                métodos. Herança de classe do Java e tipagem forte geralmente requerem hierarquias de objetos fortemente
+                acoplados. Esses requisitos tornam a programação em Java mais complexa do que a programação em
+                JavaScript.</p>
+            <p>Em contraste, JavaScript descende em espírito de uma linhagem de linguagens menores com tipagem dinâmica,
+                como HyperTalk e dBASE. Essas linguagens de script oferecem ferramentas de programação para um público
+                muito mais amplo por causa de sua sintaxe mais fácil, funções especializadas embutidas e requisitos
+                mínimos para a criação de objetos.</p>
+        </section>
+        <section class="main-section" id="JavaScript_e_a_especificação_ECMAScript">
+            <header>
+                <h2>JavaScript e a especificação ECMAScript</h2>
+            </header>
+            <p>O JavaScript é padronizado pela Ecma International — a associação Europeia para a padronização de
+                sistemas de comunicação e informação (antigamente ECMA era um acrônimo para European Computer
+                Manufacturers Association) para entregar uma linguagem de programação padronizada, internacional baseada
+                em JavaScript. Esta versão padronizada de JavaScript, chamada ECMAScript, comporta-se da mesma forma em
+                todas as aplicações que suportam o padrão. As empresas podem usar a linguagem de padrão aberto para
+                desenvolver a sua implementação de JavaScript. O padrão ECMAScript é documentado na especificação
+                ECMA-262. Veja Novidades em JavaScript para aprender mais sobre diferentes versões de JavaScript e
+                edições da especificação ECMAScript.</p>
+            <p>O padrão ECMA-262 também é aprovado pela ISO (International Organization for Standardization) como
+                ISO-16262. Você também pode encontrar a especificação no site da Ecma International. A especificação
+                ECMAScript não descreve o Document Object Model (DOM), que é padronizado pelo World Wide Web Consortium
+                (W3C). O DOM define a maneira na qual os objetos do documento HTML estão expostos no seu script. Para
+                ter uma ideia melhor sobre as diferentes tecnologias que são usadas durante a programação com
+                JavaScript, consultar o artigo Visão Geral do JavaScript.</p>
+            <div class="headline">
+                Documentação JavaScript versus Especificação ECMAScript
+            </div>
+            <p>A especificação ECMAScript é um conjunto de requisitos para a implementação ECMAScript; é útil se você
+                desejar implementar recursos compatíveis com os padrões da linguagem em sua implementação ECMAScript ou
+                engine (como SpiderMonkey no Firefox, ou v8 no Chrome).</p>
+            <p>O documento ECMAScript não se destina a ajudar programadores de script; utilize a documentação JavaScript
+                para informações sobre como escrever scripts.</p>
+            <p>A especificação ECMAScript utiliza terminologia e sintaxe que podem ser desconhecidos para um programador
+                JavaScript. Embora a descrição da linguagem possa ser diferente no ECMAScript, a linguagem em si
+                continua sendo a mesma. JavaScript suporta todas as funcionalidades descritas na especificação
+                ECMAScript.</p>
+            <p>A documentação JavaScript descreve aspectos da linguagem que são apropriadas para um programador
+                JavaScript.</p>
+        </section>
+        <section class="main-section" id="Começando_com_JavaScript">
+            <header>
+                <h2>Começando com JavaScript</h2>
+            </header>
+            <p>Começar a aprender JavaScript é fácil: Tudo o que você precisa é de um navegador web moderno. Esse guia
+                inclui algumas características do JavaScript que só estão disponíveis nas últimas versões do Firefox,
+                então, é recomendável o uso de uma versão mais recente do Firefox.</p>
+            <p>Há duas ferramentas no Firefox que são muito úteis para aprender JavaScript: O console web e o
+                Scratchpad.</p>
+            <div class="headline">
+                O console web
+            </div>
+            <p>O console web mostra informações sobre a página web que está sendo carregada atualmente e também inclui a
+                linha de comando que você pode utilizar para executar códigos JavaScript na página atual.</p>
+            <p>Para abrir o console (Ctrl+Shift+K), selecione "Web Console" do menu "Web Developer", que está sob o menu
+                "Tools" no Firefox. Ele aparece na parte inferior da janela do navegador. Na parte inferior do console
+                está a linha de comando que você pode usar para colocar o JavaScript, e a saída é exibida no painel
+                acima:</p>
+            <div class="headline">Scratchpad</div>
+            <p>O Web Console é excelente para executar linhas únicas de JavaScript, mas embora você possa executar
+                várias linhas, não é muito conveniente para isso, e você não pode salvar as amostras de código usando o
+                Web Console. Assim, para exemplos mais complexos a ferramenta Scratchpad é melhor.</p>
+            <p>Para abrir o Scratchpad (Shift+F4), selecione "Scratchpad" do menu "Web Developer", que está sob o menu
+                "Tools/Ferramentas" do Firefox. Ele abre em uma janela separada e é um editor que você pode usar para
+                escrever e executar JavaScript no navegador. Você também pode salvar os scripts para o disco e
+                carregá-los a partir do disco. </p>
+            <div class="headline">Hellow World</div>
+            <p></p>
+            <code>
+                <pre>
+                function greetMe(nome) {
+                    alert("Olá, " + nome);
+                }
+    
+                greetMe("mundo"); // "Olá, mundo"
+                </pre>
+
+            </code>
+            <p>Logo após, pressione Ctrl+R para executar o código em seu navegador.</p>
+            <p>Nas páginas seguintes, este guia irá apresentar-lhe a sintaxe e as características da linguagem
+                JavaScript, de modo que você possa escrever aplicações mais complexas.</p>
+        </section>
+        <section class="main-section" id="Sintaxe_basica">
+            <header>
+                <h2>Sintaxe Básica</h2>
+            </header>
+            <p>JavaScript pega emprestado a maior parte de sua sintaxe do Java, mas também é influenciado por Awk, Perl
+                e Python.</p>
+            <p>JavaScript é case-sensitive e usa o conjunto de caracteres Unicode. Por exemplo, a palavra Früh (que
+                significa "cedo" em Alemão) pode ser usada como nome de variável.</p>
+            <code>
+                <pre>
+                    var Früh = "foobar";
+                </pre>
+            </code>
+            <p>Mas a variável früh não é a mesma que Früh porque JavaScript é case sensitive.</p>
+            <p>No JavaScript, instruções são chamadas de declaração e são separadas por um ponto e vírgula (;). Espaços,
+                tabulação e uma nova linha são chamados de espaços em branco. O código fonte dos scripts em JavaScript
+                são lidos da esquerda para a direita e são convertidos em uma sequência de elementos de entrada como
+                simbolos, caracteres de controle, terminadores de linha, comentários ou espaço em branco. ECMAScript
+                também define determinadas palavras-chave e literais, e tem regras para inserção automática de ponto e
+                vírgula (ASI) para terminar as declarações. No entanto, recomenda-se sempre adicionar ponto e vírgula no
+                final de suas declarações; isso evitará alguns imprevistos. Para obter mais informações, consulte a
+                referência detalhada sobre a gramática léxica do JavaScript.</p>
+
+            <div class="headline">Comentários</div>
+            <code>
+                <pre>
+                    // comentário de uma linha
+    
+                    /* isto é um comentário longo
+                    de múltiplas linhas.
+                    */
+    
+                    /* Você não pode, porém, /* aninhar comentários */ SyntaxError */
+                </pre>
+            </code>
+            <div class="headline">Declarações</div>
+            <ul>
+                <li>
+                    <h3>var</h3>
+                    <p>Declara uma variável, opcionalmente, inicializando-a com um valor.</p>
+                </li>
+                <li>
+                    <h3>let</h3>
+                    <p>Declara uma variável local de escopo do bloco, opcionalmente, inicializando-a com um valor.</p>
+                </li>
+                <li>
+                    <h3>const</h3>
+                    <p>Declara uma constante de escopo de bloco, apenas de leitura.</p>
+                </li>
+            </ul>
+            <code>
+                <pre>
+                    var banana; // leitura e escrita
+                    let melancia; // leitura e escrita
+                    const pera = 10; // somente leitura
+                </pre>
+            </code>
+            <div class="headline">Escopo de variáveis</div>
+            <p>Quando você declara uma váriavel fora de qualquer função, ela é chamada de variável global, porque está
+                disponível para qualquer outro código no documento atual. Quando você declara uma variável dentro de uma
+                função, é chamada de variável local, pois ela está disponível somente dentro dessa função.</p>
+            <p>JavaScript antes do ECMAScript 6 não possuía escopo de declaração de bloco; pelo contrário, uma variável
+                declarada dentro de um bloco de uma função é uma variável local (ou contexto global) do bloco que está
+                inserido a função. Por exemplo o código a seguir exibirá 5, porque o escopo de x está na função (ou
+                contexto global) no qual x é declarado, não o bloco, que neste caso é a declaração if. </p>
+
+
+        </section>
+    </main>
+
+    <footer></footer>
+    <script src="./app.js"></script>
+</body>
+
+</html>
